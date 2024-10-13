@@ -18,9 +18,9 @@ export default function RootLayout({
         <html lang="en">
             <body>
                 <HeaderBar />
-                <main className="w-2/3 mx-auto">
+                <main className="flex w-2/3 mx-auto border bg-yellow-100">
                     <LeftSidebar />
-                    <section>
+                    <section className="mx-auto">
                         {children}
                     </section>
                 </main>
