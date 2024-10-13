@@ -16,7 +16,7 @@ interface Props {
 const UserCard = ({ id, name, imgUrl, age, location, occupation, funFact }: Props) => {
     // const router = useRouter();
     return (
-        <section className="border border-black w-96 mx-auto">
+        <section className="user-card border border-black w-96 mx-auto">
             <h1>{name}</h1>
             <div className="flex">
                 <Image
@@ -34,6 +34,10 @@ const UserCard = ({ id, name, imgUrl, age, location, occupation, funFact }: Prop
                 </div>
             </div>
             <p>{funFact}</p>
+            <div className="flex justify-between">
+                <button className="border border-green-500">yes</button>
+                <button className="border border-red-500">no</button>
+            </div>
         </section>
     );
 }

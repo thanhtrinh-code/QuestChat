@@ -18,7 +18,7 @@ export default function RootLayout({
         <html lang="en">
             <body>
                 <HeaderBar />
-                <main>
+                <main className="w-2/3 mx-auto">
                     <LeftSidebar />
                     <section>
                         {children}

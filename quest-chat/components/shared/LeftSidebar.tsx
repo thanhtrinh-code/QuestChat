@@ -6,8 +6,10 @@ interface Props {
 
 const LeftSidebar = ({ requests }: Props) => {
     return (
-        <section>
-
+        <section className="flex">
+            <button className="border border-black w-100">FindMyFriends</button>
         </section>
     );
 }
+
+export default LeftSidebar;
