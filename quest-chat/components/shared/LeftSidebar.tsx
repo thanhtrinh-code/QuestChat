@@ -12,14 +12,14 @@ const LeftSidebar = ({ requests }: Props) => {
         router.push(path);
       };
       return (
-        <section className="bg-yellow-200 flex flex-col w-1/5">
-          <button className="w-full p-3 rounded-lg hover:bg-yellow-300" onClick={() => handleNavigation("/dashboard")}>
+        <section className="bg-yellow-200 flex flex-col w-[20%] h-screen">
+          <button className="w-full p-3 rounded-lg hover:bg-yellow-300 font-serif text-xl" onClick={() => handleNavigation("/dashboard")}>
             FindMyFriends
           </button>
-          <button className="w-full p-3 rounded-lg hover:bg-yellow-300" onClick={() => handleNavigation("/dashboard/requests")}>
+          <button className="w-full p-3 rounded-lg hover:bg-yellow-300 font-serif text-xl" onClick={() => handleNavigation("/dashboard/requests")}>
             Requests
           </button>
-          <button className="w-full p-3 rounded-lg hover:bg-yellow-300" onClick={() => handleNavigation("/dashboard/chats")}>
+          <button className="w-full p-3 rounded-lg hover:bg-yellow-300 font-serif text-xl" onClick={() => handleNavigation("/dashboard/chats")}>
             Chats
           </button>
         </section>

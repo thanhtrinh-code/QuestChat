@@ -16,11 +16,11 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en">
-            <body>
+            <body className="w-screen h-screen bg-yellow-100">
                 <HeaderBar />
-                <main className="flex w-2/3 mx-auto border bg-yellow-100">
+                <main className="flex bg-yellow-100">
                     <LeftSidebar />
-                    <section className="mx-auto">
+                    <section className="w-full">
                         {children}
                     </section>
                 </main>
