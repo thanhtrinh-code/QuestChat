@@ -28,6 +28,13 @@ export default function Home() {
             <h1 className="font-serif text-[9rem] text-[#8F67B7]">QuestChat</h1>
           </div>
         </div>
+        <div className="flex flex-col items-center justify-center">
+          <p className="text-center font-serif text-2xl text-[#8F67B7] leading-relaxed max-w-md">
+      I’ve always struggled with shyness when it comes to meeting new friends, but I wish I could change that.
+        <br />
+            <strong>Introducing QuestChat:</strong> the app designed to be deleted once you find your lifelong friends.
+          </p>
+        </div>
       </main>
     </div>
   );
