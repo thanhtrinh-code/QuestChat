@@ -15,10 +15,10 @@ export default function RootLayout({
     children: React.ReactNode;
 }>) {
     return (
-        <div className="flex flex-row h-screen">
-            <LeftSidebar />
-            <div className="flex-grow">
-                <HeaderBar />
+        <div className="w-screen h-screen">
+            <HeaderBar />
+            <div className="flex h-full w-full">
+                <LeftSidebar />
                 {children}
             </div>
         </div>

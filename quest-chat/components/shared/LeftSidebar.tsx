@@ -12,7 +12,7 @@ const LeftSidebar = ({ requests }: Props) => {
         router.push(path);
       };
       return (
-        <section className="bg-yellow-200 flex flex-col w-[20%] h-screen">
+        <section className="bg-yellow-200 flex flex-col w-[20%] h-full">
           <button className="w-full p-3 rounded-lg hover:bg-yellow-300 font-serif text-xl" onClick={() => handleNavigation("/dashboard")}>
             FindMyFriends
           </button>

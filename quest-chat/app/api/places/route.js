@@ -31,8 +31,6 @@ export async function GET(req, res) {
         return new NextResponse(JSON.stringify({
             items,
         }));
-
-        
     } catch (error) {
         console.error(error);
         return new NextResponse(JSON.stringify({error: 'Failed to fetch users'}));

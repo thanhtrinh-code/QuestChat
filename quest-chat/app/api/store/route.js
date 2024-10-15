@@ -30,7 +30,7 @@ export async function POST(req, res) {
         
         return new NextResponse(JSON.stringify({
             message: "Data received successfully",
-        }))
+        }));
     } catch (error) {
         console.error(error);
         return new NextResponse(JSON.stringify({
